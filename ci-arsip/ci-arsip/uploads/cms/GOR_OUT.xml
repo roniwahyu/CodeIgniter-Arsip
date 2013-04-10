@@ -1,0 +1,28 @@
+<chart formatNumberScale='0' 
+caption='Kecepatan Rata-rata Kendaraan Over Speed Pada Lokasi : S.HATTA
+Periode: 01-Jan-2013 s/d 22-Jan-2013 '
+xAxisName='Jam' yAxisName='Kecepatan Rata-rata (Km/Jam)' numberPrefix='' showAboutMenuItem='1' aboutMenuItemLabel='About AhliKomputer.com' aboutMenuItemLink='n-http://www.ahlikomputer.com'>
+<set label='00' value='60' />
+<set label='01' value='46' />
+<set label='02' value='56' />
+<set label='03' value='42' />
+<set label='05' value='52' />
+<set label='06' value='48' />
+<set label='07' value='47' />
+<set label='08' value='51' />
+<set label='09' value='47' />
+<set label='10' value='47' />
+<set label='11' value='48' />
+<set label='12' value='47' />
+<set label='13' value='47' />
+<set label='14' value='46' />
+<set label='15' value='47' />
+<set label='16' value='50' />
+<set label='17' value='46' />
+<set label='18' value='45' />
+<set label='19' value='46' />
+<set label='20' value='44' />
+<set label='21' value='45' />
+<set label='22' value='50' />
+<set label='23' value='50' />
+<trendLines><line startValue='40' color='FF5904' displayvalue='SPEED LIMIT 40' /></trendLines></chart>

@@ -1,0 +1,19 @@
+<html>
+  <head>        
+    <title>Speed Detection Analysis</title>    
+    <script type="text/javascript" src="FusionCharts.js">
+    </script>
+  </head>   
+  <body>   
+	<div id="chartContainer">Charts will load here!</div>          
+    <script type="text/javascript"><!--   
+	  FusionCharts.setCurrentRenderer('javascript');	
+      var myChart = new FusionCharts( "MSCombi2D.swf", 
+      "myChartId", "80%", "80%", "0", "1" );
+      myChart.setXMLUrl("analisis_overspeed.xml");
+      myChart.render("chartContainer");
+	  myChart.configure('showShadow', '1');
+	// -->     
+	</script>  
+  </body> 
+</html>

@@ -1,0 +1,32 @@
+<chart formatNumberScale='0' caption='Jumlah Kendaraan Melintas vs Jumlah OverSpeed Per Lokasi Periode 01-Jan-2013 s/d 22-Jan-2013 '
+xAxisName='Lokasi' yAxisName='Jumlah' showValues='0' numberPrefix='' showAboutMenuItem='1' aboutMenuItemLabel='About AhliKomputer.com' aboutMenuItemLink='n-http://www.ahlikomputer.com'><categories>
+<category label='A.YANI'/>
+<category label='S.PARMAN'/>
+<category label='B.RAHMAT'/>
+<category label='S.HATTA'/>
+<category label='GATSU'/>
+<category label='DIPANJAITAN'/>
+<category label='B.KATAMSO'/>
+<category label='H.JUANDA'/>
+</categories>
+<dataset seriesName='Jumlah' renderAs='Area'>
+ <set value='1368'/>
+ <set value='1976'/>
+ <set value='2250'/>
+ <set value='3941'/>
+ <set value='2239'/>
+ <set value='2477'/>
+ <set value='4740'/>
+ <set value='5892'/>
+</dataset>
+<dataset seriesName='Over Speed'>
+ <set value='376' link='GOLF_IN.html ' />
+ <set value='647' link='GOLF_OUT.html ' />
+ <set value='377' link='GOR_IN.html ' />
+ <set value='1171' link='GOR_OUT.html ' />
+ <set value='447' link='PC4_IN.html ' />
+ <set value='789' link='PC4_OUT.html ' />
+ <set value='731' link='TC1_IN.html ' />
+ <set value='785' link='TC2_IN.html ' />
+</dataset>
+</chart>

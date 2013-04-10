@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+html, body {
+	font: normal 16px/24px Helvetica, Arial, sans-serif;
+}
+a { color:#666; text-decoration:none; }
+a:hover { text-decoration:underline; }
+#container {
+  border:1px solid #ccc;
+  margin:30px auto;
+  width:800px;
+}
+#header {
+  border-bottom:1px solid #ccc;
+  display:block;
+  padding:10px;
+}
+#header h1 { color:#fff; float:left; font-size:24px; font-weight:bold;  }
+#header a { float:right; }
+#content { clear:both; display: block; padding:10px; }
+#content label { float:left; width:80px; }
+#content input[type=text], #content input[type=password], select { padding:5px; width:300px; }
+#footer { background:#eee; border-top:1px solid #ddd; font-size:12px; padding:10px; }
+.simple { margin:10px 0; }
+.clear { clear:both; }
+.gradient {
+  /* fallback */
+  background-color: #1a82f7;
+  /* Safari 4-5, Chrome 1-9 */
+  background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#1a82f7), to(#2F2727));
+  /* Safari 5.1, Chrome 10+ */
+  background: -webkit-linear-gradient(top, #2F2727, #1a82f7);
+  /* Firefox 3.6+ */
+  background: -moz-linear-gradient(top, #2F2727, #1a82f7);
+  /* IE 10 */
+  background: -ms-linear-gradient(top, #2F2727, #1a82f7);
+  /* Opera 11.10+ */
+  background: -o-linear-gradient(top, #2F2727, #1a82f7);
+}
+.button { background:#fff; margin:0 10px; padding:0 10px; }
+.button:hover { background:#ccc; }
+.rounded {
+	-moz-border-radius:5px;
+	-webkit-border-radius:5px;
+	-khtml-border-radius:5px;
+	-o-border-radius:5px;
+	border-radius:5px;
+}
